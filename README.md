@@ -29,7 +29,7 @@
 <img width="358" height="405" alt="image" src="https://github.com/user-attachments/assets/f5fa718a-04a7-4ee7-837c-1a67740ebe08" />
 
 ### ⌨️ Пример движения плиток при нажатии на правую стрелку
-Движение происходит при помощи события **KeyDown** главной формы
+Движение происходит при помощи события **KeyDown** главной формы 
 
 <pre><code>
 if (e.KeyCode == Keys.Right)
