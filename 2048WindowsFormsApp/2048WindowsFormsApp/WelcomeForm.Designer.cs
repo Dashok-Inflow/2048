@@ -39,7 +39,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(110, 84);
+            this.label1.Location = new System.Drawing.Point(110, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(550, 48);
             this.label1.TabIndex = 0;
@@ -49,18 +49,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(70, 154);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(12, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(975, 44);
+            this.label2.Size = new System.Drawing.Size(664, 66);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Сперва нужно зарегистрироваться! Со всеми правилами игры вы сможете ознакомиться " +
-    "в выпадающем меню, \r\nкоторое высветится после нажатия кнопки \"Старт\"";
+            this.label2.Text = "Сперва нужно зарегистрироваться! \r\nСо всеми правилами игры вы сможете ознакомитьс" +
+    "я в выпадающем меню, \r\nкоторое высветится после нажатия кнопки \"Старт\"";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(112, 235);
+            this.label3.Location = new System.Drawing.Point(112, 233);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(280, 34);
             this.label3.TabIndex = 2;
@@ -70,7 +72,7 @@
             // 
             this.userNameTextBox.BackColor = System.Drawing.Color.White;
             this.userNameTextBox.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userNameTextBox.Location = new System.Drawing.Point(118, 305);
+            this.userNameTextBox.Location = new System.Drawing.Point(118, 310);
             this.userNameTextBox.Name = "userNameTextBox";
             this.userNameTextBox.Size = new System.Drawing.Size(542, 43);
             this.userNameTextBox.TabIndex = 3;
@@ -79,7 +81,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
             this.button1.Font = new System.Drawing.Font("Modern No. 20", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(277, 386);
+            this.button1.Location = new System.Drawing.Point(262, 387);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(239, 93);
             this.button1.TabIndex = 4;
@@ -91,8 +93,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(1106, 507);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(790, 507);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.userNameTextBox);
             this.Controls.Add(this.label3);
@@ -100,7 +102,6 @@
             this.Controls.Add(this.label1);
             this.Name = "WelcomeForm";
             this.Text = "2048";
-            this.Load += new System.EventHandler(this.WelcomeForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

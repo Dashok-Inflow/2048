@@ -21,11 +21,5 @@ namespace _2048WindowsFormsApp
         {
             this.Close();
         }
-
-        private void WelcomeForm_Load(object sender, EventArgs e)
-        {
-
-            WindowState = FormWindowState.Maximized;
-        }
     }
 }

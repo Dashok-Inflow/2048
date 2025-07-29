@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
 
 namespace _2048WindowsFormsApp
 {
@@ -27,7 +25,6 @@ namespace _2048WindowsFormsApp
             WelcomeForm welcome = new WelcomeForm();
             welcome.ShowDialog();
 
-            this.WindowState = FormWindowState.Maximized;
             user = new User(welcome.userNameTextBox.Text);
 
             highScore = GetHighScore();

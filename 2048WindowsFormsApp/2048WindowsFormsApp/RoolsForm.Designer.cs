@@ -51,7 +51,7 @@
             this.roolsLabel.Location = new System.Drawing.Point(16, 108);
             this.roolsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.roolsLabel.Name = "roolsLabel";
-            this.roolsLabel.Size = new System.Drawing.Size(1618, 175);
+            this.roolsLabel.Size = new System.Drawing.Size(958, 250);
             this.roolsLabel.TabIndex = 1;
             this.roolsLabel.Text = resources.GetString("roolsLabel.Text");
             // 
@@ -59,14 +59,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(1017, 554);
             this.Controls.Add(this.roolsLabel);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RoolsForm";
             this.Text = "Правила игры";
-            this.Load += new System.EventHandler(this.RoolsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

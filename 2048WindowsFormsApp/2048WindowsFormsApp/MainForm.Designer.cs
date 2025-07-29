@@ -50,7 +50,7 @@
             this.label1.BackColor = System.Drawing.Color.Gray;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(486, 65);
+            this.label1.Location = new System.Drawing.Point(483, 100);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 30);
             this.label1.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.scoreLabel.BackColor = System.Drawing.Color.Gray;
             this.scoreLabel.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.scoreLabel.Location = new System.Drawing.Point(583, 65);
+            this.scoreLabel.Location = new System.Drawing.Point(596, 100);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(27, 30);
             this.scoreLabel.TabIndex = 1;
@@ -70,13 +70,13 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.DarkGray;
+            this.menuStrip1.BackColor = System.Drawing.Color.Gainsboro;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(920, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(790, 33);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -157,7 +157,7 @@
             this.label2.BackColor = System.Drawing.Color.Gray;
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(172, 65);
+            this.label2.Location = new System.Drawing.Point(162, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(178, 30);
             this.label2.TabIndex = 3;
@@ -169,7 +169,7 @@
             this.highScoreLabel.BackColor = System.Drawing.Color.Gray;
             this.highScoreLabel.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highScoreLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.highScoreLabel.Location = new System.Drawing.Point(356, 65);
+            this.highScoreLabel.Location = new System.Drawing.Point(363, 100);
             this.highScoreLabel.Name = "highScoreLabel";
             this.highScoreLabel.Size = new System.Drawing.Size(27, 30);
             this.highScoreLabel.TabIndex = 4;
@@ -177,8 +177,8 @@
             // 
             // MainForm
             // 
-            this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(920, 563);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(790, 642);
             this.Controls.Add(this.highScoreLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.scoreLabel);
